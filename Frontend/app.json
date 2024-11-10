@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Aura Alert",
+    "slug": "AuraAlert",
+    "version": "1.0.0",
+    "icon": "./assets/images/icon.png",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "splash": {
+      "backgroundColor": "#FFFFFF",
+      "resizeMode": "contain",
+      "image": "./assets/images/micguardsplash.png"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "android": {
+      "package": "com.project.auraalert"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "80a33052-e7c3-40d1-9628-57b63616d91b"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.project.auraalert"
+    }
+  }
+}
